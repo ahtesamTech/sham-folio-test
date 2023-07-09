@@ -17,13 +17,30 @@
 }
 .nav-text{
     display: flex;
+    align-items: center;
 }
 .nav-child{
     margin-right: 20px;
 }
+.cv{
+    background-color: orangered;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    color: aliceblue;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    
+}
+.cv:hover{
+    background-color: green;
+}
 .main-page{
     background-image: url("../images/background.png"), 
-    linear-gradient(90deg, rgb(29, 28, 28) , rgb(32, 28, 28));
+    linear-gradient(360deg, rgb(248, 228, 205) , rgb(32, 28, 28));
     display: flex;
     height: 100vh;
     border: 2px solid green;
