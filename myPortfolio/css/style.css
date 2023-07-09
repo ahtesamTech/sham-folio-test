@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+
+}
+
+.nav-container{
+    background-color: rgba(51, 49, 49, 0.692);
+    padding: 10px;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo_light{
+    width: 250px;
+}
+.nav-text{
+    display: flex;
+}
+.nav-child{
+    margin-right: 20px;
+}
+.main-page{
+    background-image: url("../images/background.png"), 
+    linear-gradient();
+}
