@@ -1,35 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="output.css">
+  <link rel="stylesheet" href="styles.css">
+  <title>Sham Folio</title>
+
 </head>
 <body>
-    <header>
-
-       
-
-    </header>
-    <main>
-
-        <section>
+    <header class="sm:absolute">
+        <div class="navbar bg-[#232d39] sm:bg-transparent">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <label tabindex="0" class="btn btn-ghost btn-circle bg-orange-700">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+                </label>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                  <li><a>Homepage</a></li>
+                  <li><a>Portfolio</a></li>
+                  <li><a>About</a></li>
+                </ul>
+              </div>
+            </div>
            
-        </section>
-
-
-
-        <section>
-
-       
-        </section>
-        
-
-    </main>
-    <footer>
-
-    </footer>
+          </div>
+    </header>
+  <main class="h-screen">
+   <div>
     
+    <div class="hero min-h-screen" style="background-image: url(./images/agancy.jpg);">
+        <div class="hero-overlay bg-opacity-60"></div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 text-neutral-content justify-center items-center">
+
+            <div class=""><figure class="container flex items-center justify-center">
+                <img class="h-0 w-0 sm:h-4/6 w-4/6" src="./images/section.png" alt="">
+            </figure></div>
+
+          <div class="flex flex-col items-center sm:items-start justify-center sm:justify-start p-4">
+            <h1 class="mb-5 text-3xl xl:text-4xl font-bold">Hello there</h1>
+            <div class='my-3 console-container md:text-4xl sm:text-2xl xl:text-5xl font-bold'>I'm <span id='text'></span><div class='console-underscore' id='console'>&#95;</div></div>
+            <p class="text-start line-clamp-4 xl:text-lg font-medium leading-loose">I'm a Work APP/WEB Designer and Developer Or Digital Marketer. I strives to build immersive and beautiful web applications through carefully crafted code and user-centric design. And also manage facebook Manager and successfully run fb ad.</p>
+            <div>  
+                
+                <button type="button" class="text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">More About Me</button>
+                
+                <button class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-white rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800">
+                    <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-[#232d39] dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+                        My Portfolio
+                    </span>
+                  </button>
+            </div>
+          
+          </div>
+        </div>
+      </div>
+   </div>
+  </main>
+
+
+<script src="./index.js"></script>
+  <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
 </body>
 </html>
